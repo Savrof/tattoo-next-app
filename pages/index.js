@@ -1,30 +1,26 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css";
+import Image from "next/image"
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Tattoo</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <>
+            <div className={styles.container}>
+                {/* //TODO: header и структурой наflex */}
+                <nav className={styles.nav}>
+                    <a>Home</a>
+                    <a>Works</a>
+                    <a>Booking</a>
+                </nav>
 
-      <main className={styles.main}>
+                <main className={styles.main}>
+                      <div className={styles.block}>
+                      </div>
+                      <div className={styles.block}>block</div>
+                      <div className={styles.block}>block</div>
+                </main>
 
-        <h1 className={styles.title}>
-
-        </h1>
-
-
-        <div className={styles.grid}>
-
-        </div>
-        
-      </main>
-
-
-      <footer className={styles.footer}> 
-      </footer>
-    </div>
-  )
+                <footer className={styles.footer}></footer>
+            </div>
+        </>
+    );
 }
