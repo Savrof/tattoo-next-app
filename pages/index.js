@@ -1,9 +1,9 @@
-import Header from "../layout/Header.js"
+import MainLayer from "../layout/MainLayer"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
-        <Header>
+        <MainLayer>
             <div>
                 <div className={styles.container}>
                     <main className={styles.main}>
@@ -11,10 +11,8 @@ export default function Home() {
                         <div className={styles.block}>block</div>
                         <div className={styles.block}>block</div>
                     </main>
-
-                    <footer className={styles.footer}></footer>
                 </div>
             </div>
-        </Header>
+        </MainLayer>
     );
 }

@@ -1,12 +1,10 @@
-import Link from "next/link";
-import Header from "../layout/Header";
+import MainLayer from "../layout/MainLayer";
 
 
 export default function Works() {
     return (
-    <>
-        <Header />
+    <MainLayer>
         Works page
-    </>  
+    </MainLayer>  
     );
 }

@@ -1,11 +1,9 @@
-import Header from "../layout/Header.js";
-import styles from "../styles/Home.module.css";
+import MainLayer from "../layout/MainLayer";
 
 export default function Booking() {
     return (
-        <>
-            <Header />
+        <MainLayer>
             <p>Booking page</p>
-        </>
+        </MainLayer>
     );
 }

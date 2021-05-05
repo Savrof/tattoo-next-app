@@ -1,0 +1,28 @@
+
+.container {
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  align-self: center;
+
+}
+
+.footer {
+  margin-top: auto;
+}
+
+/* .footer img {
+
+} */
+
