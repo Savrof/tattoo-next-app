@@ -1,16 +1,19 @@
 
 .container {
-  overflow: hidden;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   margin: 0 auto;
   max-width: 1180px;
+
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  max-width: 1180px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  justify-content: space-evenly;
 }
 
 .main {
@@ -22,7 +25,6 @@
   margin-top: auto;
 }
 
-/* .footer img {
 
-} */
+
 
